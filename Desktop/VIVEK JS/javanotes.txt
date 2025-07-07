@@ -1,0 +1,52 @@
+JAVASCRIPT
+- it is used to add functionaly and active ness in web page
+-it is loosly typed language
+-it is interperted language
+
+@how many ways to to use operater
+there are 2 ways to use operator as follows:
+1.internal js : in this we have to use script tag in html file to write js code
+2.external js ; in this we need to create another js code file and import it in html file by using script tag
+
+@ways to display o/p in js 
+there are 4 ways to display o/p in html as follows :
+1.document.write() : in this o/p directly showen in browser page
+2.console.write() : this method is used for testing purpose
+3.window.alert(): in this the model page is created and display o/p in it
+4.innerHTML(): it use to display o/p inside and element
+
+@variables : it is an container used to store data in it.
+-its value can be changed 
+-in js we create vareables by using var,let and const.
+
+data types in html :
+1.number data type : 12345 
+2.string data type : represent in ""  ,  ''
+  ex "vivek",'vaishanavi'
+3.array data type : represent by using [ ]
+4. boolean data type ; it have only two values TRUE & FALSE
+
+@loops in js 
+1 for loop :
+for (variable declaration,condition,increment/decrement)
+{
+    //code 
+}
+
+2.while loop :
+vareable decleration
+while(condetion,)
+{
+    //code 
+    increment/decrement
+}
+
+3. do while loop :
+vareable decleration
+do()
+{
+    //code
+
+}
+while(condetion)
+
