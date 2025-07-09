@@ -12,39 +12,90 @@
     <script>
           
 
-          let fruits = ["mango","greasp","banana","apple"];
-          document.write(fruits,"<br>")
+    //       let fruits = ["mango","greasp","banana","apple"];
+    //       document.write(fruits,"<br>")
 
-        //   how to accees data outside array
-       document.write(fruits[2],"<br>")
+    //     //   how to accees data outside array
+    //    document.write(fruits[2],"<br>")
 
-    //    hoe to change array values
-       fruits[2] = "chikoo"
-       document.write(fruits,"<br>")
+    // //    hoe to change array values
+    //    fruits[2] = "chikoo"
+    //    document.write(fruits,"<br>")
 
-    //    how to find array lengtl 
-          document.write(fruits.length,"<br>")
+    // //    how to find array lengtl 
+    //       document.write(fruits.length,"<br>")
 
-          //    how to find array size 
-          document.write(fruits.length-1,"<br>")
+    //       //    how to find array size 
+    //       document.write(fruits.length-1,"<br>")
 
-        //   array methods
-        // 1.push ():it use to insert values at last of an arraay
-       fruits.push("dragan fruit","kivi");
-        document.write(fruits,"<br>");
+    //     //   array methods
+    //     // 1.push ():it use to insert values at last of an arraay
+    //    fruits.push("dragan fruit","kivi");
+    //     document.write(fruits,"<br>");
 
-        // 2.pop(): it use to remove values from array at end at time only one element is to be delete
-        fruits.pop();
-        document.write(fruits,"<br>");
+    //     // 2.pop(): it use to remove values from array at end at time only one element is to be delete
+    //     fruits.pop();
+    //     document.write(fruits,"<br>");
 
-         // 3.unshift ():it use to insert values at from starting  of an arraay
-         fruits.unshift("santri","pomogeanate");
-        document.write(fruits,"<br>");
+    //      // 3.unshift ():it use to insert values at from starting  of an arraay
+    //      fruits.unshift("santri","pomogeanate");
+    //     document.write(fruits,"<br>");
 
-         // 4.shift(): it use to remove values from array from starting at time only one element is to be delete
-         fruits.shift();
-         document.write(fruits,"<br>");
+    //      // 4.shift(): it use to remove values from array from starting at time only one element is to be delete
+    //      fruits.shift();
+    //      document.write(fruits,"<br>");
 
-    </script>
+    //     //  5.splice (startingindex,deletecount,values to insert): it allows us to add and remove values from middel of an array
+
+    //     let names = ["vivek","vaishanvi","akshya","tanvi"];
+    //     names.splice(2,0,"rohan","samrudhii");
+    //     console.log(names);
+        
+    //     names.splice(4,2);
+    //     console.log(names);
+
+    //     // 6.tosrting () : it use to convert array data into string data
+
+    //     console.log(names.tostring());
+
+    //     //  7.join (): it use to convert array data into string data it take one parameter to seperate values
+    //     console.log(names.join());
+    //     console.log(names.join("#"));
+
+    //     console.log(names.join("@"));
+
+    let courses = ["HTML","CSS","BOOTSTRAP","JAVA","REACT"];
+    for(let i=0;i<courses.length;i++)
+    {
+        document.write(courses[i],",");
+    }
+
+
+     for(let i=courses.length-1;i>=0;i--)
+    {
+        document.write(courses[i],",");
+    }
+    document.write("<br>")
+    
+
+    let num = [1,2,3,4,5,6,7,8,9,10];
+     for( let i=0;i<num.length;i++)
+      {
+        if(num[i]%2==0)
+      {
+        document.write(num[i],"")
+      }
+      }
+       document.write("<br>")
+       
+      for(let i=0;i<num.length;i++)
+      {
+        if(num[i]%2!=0)
+      {
+        document.write(num[i],"")
+      }
+      }
+     
+    // </script>
 </body>
 </html>
