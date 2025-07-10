@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+    
+//    1.default function
+      function vivek() {
+        return "hi akshya";
+      }
+      document.write(vivek(),"<br>");
+
+    //   2.paramitarized function
+        function ak(n1,n2) {
+            return "welcome"+n1+n2;
+        }
+      document.write(ak("vivek","akshyaS"),"<br>");
+      document.write(ak("vaishanvi","tanvi"),"<br>");
+
+    //   3.anonymous function :function which has no name
+        let ad = function(n1,n2){
+            return n1+n2;
+        }         
+            document.write(ad(2000,294654),"<br>");
+
+        //  4.arrow function :Function which having no name &no function key word
+        let add = ()=>{
+            return n1+n2;
+        }         
+            document.write(add(2000,294654),"<br>");
+
+        //    5.optional parameterize function : in this function we can keep parameter value option ,means no need to pass parameter value
+           let fullname = (fname,lname,mname= '') =>
+           {
+            return fname+mname+lname;
+        }         
+            document.write(fullname("vivek","salunke"),"<br>");
+
+            // 6.rest parameterize function : when we dont know how many parameter are required then we usr spread(...)operator
+
+            let list = (...std) =>
+            {
+              return std;
+            }
+             document.write(list("vivek","vaishnavi","  akshya","tanvi","  rohan","samrudhii"),"<br>");
+
+
+
+
+
+
+
+         
+
+    </script>
+</body>
+</html>
