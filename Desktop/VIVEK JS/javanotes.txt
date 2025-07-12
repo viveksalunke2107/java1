@@ -50,3 +50,64 @@ do()
 }
 while(condetion)
 
+@ Array:
+-array is an datatype
+-in array user can store multiple values of same datatype
+-array index always start from 0 
+
+#there are diffrent methods of array as follows :
+
+1.push():
+in this method user can store new values in array at starting from last index
+2.pop():
+in this method user can remove  values in array at starting from last index
+3.unshift():
+in this method user can store  values in array from starting index
+4.shift():
+in this method user can remove  values in array from starting
+5.splice(startingindex,delete count,insreting values):
+in this method user can store and also remove values from array
+6.tosrting () : it use to convert array data into string data
+7.join (): it use to convert array data into string data it take one parameter to seperate values
+
+@ Function:
+
+-is is block of code which is use to perform specific task.
+-function will execute(run) only when we call it.
+-function can be reuse multiple time.
+-in functiuon return statment must be last statment.
+
+syntax: function functionName(){
+    code...
+}
+
+*there are mainly two types function in javascript
+1.inbuit (predefine) function: function which already developed and provide by javascript to us.
+2.user define : function developed user to there uses.
+
+*Rules to create user define function 
+-functionName name can not be any reserved keyword name.
+-function name must start with lowercase letter.
+-in javascript function name can start $ and _ sign 
+
+*Event: everything is an event in programing.
+*onclick: it will work on click event.
+*onMouseover: it will work whrn we over mouse on it.
+
+*typecasting: converting one data type into another data type
+
+
+1.default function:it has no parameter
+2.paramitarized function:it use when user have to pass parameter
+3.anonymous function :function which has no name
+4.arrow function :Function which having no name &no function key word
+5.optional parameterize function : in this function we can keep parameter value option ,means no need to pass parameter value
+6.rest parameterize function : when we dont know how many parameter are required then we usr spread(...)operator
+
+
+
+
+
+
+ 
+
