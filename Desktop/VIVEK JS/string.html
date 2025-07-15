@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = "Vivek Kisan Salunke JSPM student"
+        // 1.length
+        console.log(name.length,)
+        console.log(name.indexOf("JSPM"))
+        console.log(name.lastIndexOf("Salunke"))
+        console.log(name.search("Salunke"))
+        console.log(name.slice(0,6))
+        console.log(name.substring(0,6))
+        console.log(name.substr(0,6))
+        console.log(name.substring(0,6))
+        console.log(name.toUpperCase())
+        console.log(name.toLowerCase())
+        console.log(name.split())
+    
+      let arr = [
+        {
+        id:1,
+        Name:'Vivek',
+        Post:'ReactDeveloper',
+        salary:30000,
+        Age:21,
+        Gender:'Male',
+        Address:'Pune'
+      },
+       {
+        id:2,
+        Name:'Vaishnavi',
+        Post:'ReactDeveloper',
+        salary:30000,
+        Age:21,
+        Gender:'Female',
+        Address:'Pune'
+      },
+      {
+        id:3,
+        Name:'Akshya',
+        Post:'JavaDeveloper',
+        salary:40000,
+        Age:23,
+        Gender:'Male',
+        Address:'Pune'
+      },
+       {
+        id:4,
+        Name:'Tanvi',
+        Post:'JvavDeveloper',
+        salary:40000,
+        Age:23,
+        Gender:'Female',
+        Address:'Pune'
+      },
+     {
+        id:5,
+        Name:'Rohan',
+        Post:'Hr',
+        salary:60000,
+        Age:21,
+        Gender:'Male',
+        Address:'Pune'
+      },
+     {
+        id:6,
+        Name:'Samrudhi',
+        Post:'Hr',
+        salary:60000,
+        Age:21,
+        Gender:'Female',
+        Address:'Pune'
+      }
+    ]
+
+    for(i=0;i<arr.length;i++){
+        console.log(arr[i].Name+" "+arr[i].Post+" "+arr[i].salary+" "+arr[i].Age+" "+arr[i].Gender+" "+arr[i].Address+" ")
+    }
+    for(i=0;i<arr.length;i++){
+        if (arr[i].Gender=='Female'){
+            console.log(arr[i].Name+" "+arr[i].Post+" "+arr[i].salary+" "+arr[i].Age+" "+arr[i].Gender+" "+arr[i].Address+" ")
+        }
+    }
+     
+    for(i=0;i<arr.length;i++){
+        if (arr[i].Post=='Hr'){
+            console.log(arr[i].Name+" "+arr[i].Post+" "+arr[i].salary+" "+arr[i].Age+" "+arr[i].Gender+" "+arr[i].Address+" ")
+        }
+    }
+
+    for(i=0;i<arr.length;i++){
+        if (arr[i].age<22){
+            console.log(arr[i].Name+" "+arr[i].Post+" "+arr[i].salary+" "+arr[i].Age+" "+arr[i].Gender+" "+arr[i].Address+" ")
+        }
+    }
+
+    for(i=0;i<arr.length;i++){
+        if (arr[i].salary>50000){
+            console.log(arr[i].Name+" "+arr[i].Post+" "+arr[i].salary+" "+arr[i].Age+" "+arr[i].Gender+" "+arr[i].Address+" ")
+        }
+    }
+
+      </script>
+</body>
+</html>
