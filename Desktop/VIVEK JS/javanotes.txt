@@ -104,7 +104,18 @@ syntax: function functionName(){
 5.optional parameterize function : in this function we can keep parameter value option ,means no need to pass parameter value
 6.rest parameterize function : when we dont know how many parameter are required then we usr spread(...)operator
 
+#CLASS#
+Use the keyword class to create a class.
 
+Always add a method named constructor():
+#syntax
+class classname{
+    constructor{}
+}
+
+A JavaScript class is not an object.
+
+It is a template for JavaScript objects.
 
 
 
