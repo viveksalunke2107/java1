@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="v1">VAR1</label>
+        <input type="text" id="v1" name="v1" ><br/><br/>
+
+        <label for="v2">VAR2</label>
+        <input type="text" id="v2" name="v2" ><br/><br/>
+
+        <select id="optr">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="%">%</option>
+            <option value="/">/</option>
+        </select><br/><br/>
+        <button onclick="Calculate()" type="button">Calculate</button><br/><br/>
+
+            RESULT:<p id="ans"></p>
+    </form>
+</body>
+<script src="./cal.js"></script>
+</html>
